@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
+import 'package:tflite/tflite.dart';
 
 void main() {
   runApp(MyApp());
@@ -71,7 +72,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-// ignore: must_be_immutable
 class ScanPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -79,8 +79,16 @@ class ScanPage extends StatefulWidget {
   }
 }
 
+// ignore: non_constant_identifier_names
+class Send {
+  final File img;
+
+  Send(this.img);
+}
+
 class _ScanPageState extends State<ScanPage> {
-  File _image;
+  File img;
+
   Future getImage(bool isCamera) async {
     File image;
     if (isCamera) {
@@ -89,8 +97,38 @@ class _ScanPageState extends State<ScanPage> {
       image = await ImagePicker.pickImage(source: ImageSource.gallery);
     }
     setState(() {
-      _image = image;
+      img = image;
     });
+  }
+
+  Future<void> _showMyDialog() async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('No image found!!'),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Text('Please click image.'),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text(
+                'OK',
+                style: TextStyle(color: Colors.green, fontSize: 20.0),
+              ),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
 
   Widget build(BuildContext context) {
@@ -132,17 +170,121 @@ class _ScanPageState extends State<ScanPage> {
                 getImage(true);
               },
               color: Colors.green,
-              icon: Icon(Icons.camera_alt_sharp),
-              iconSize: 100.0,
+              icon: Icon(Icons.camera_alt_rounded),
+              iconSize: 50.0,
             ),
-            Expanded(child: _image == null? Container() : Image.file(_image, height: 700.0, width: 300.0,),),
-            
+            Expanded(
+              child: img == null
+                  ? Container()
+                  : Image.file(
+                      img,
+                      height: 1000.0,
+                      width: 350.0,
+                    ),
+            ),
             IconButton(
               onPressed: () {
+                if (img != null) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DisplayPage(img2: img)),
+                  );
+                } else {
+                  _showMyDialog();
+                }
+                ;
               },
               color: Colors.green,
-              icon: Icon(Icons.navigate_next_sharp),
-              iconSize: 100.0,
+              icon: Icon(Icons.navigate_next_rounded),
+              iconSize: 50.0,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// ignore: must_be_immutable
+class DisplayPage extends StatefulWidget {
+  String get result => null;
+
+  @override
+  _DisplayPageState createState() => _DisplayPageState();
+
+  File img2;
+  DisplayPage({Key key, @required this.img2}) : super(key: key);
+}
+
+class _DisplayPageState extends State<DisplayPage> {
+  loadModel() async {
+    await Tflite.loadModel(
+      model: "model_unquant.tflite",
+      labels: "labels.txt",
+    );
+  }
+
+  void initState() {
+    super.initState();
+    loadModel();
+  }
+
+  void dispose() async {
+    super.dispose();
+
+    await Tflite.close();
+  }
+
+  runModel() async {
+    if (widget.img2 != null) {
+      var recognitions = await Tflite.runModelOnImage(
+        path: widget.img2.path,
+        imageMean: 127.5,
+        imageStd: 127.5,
+        numResults: 3,
+        threshold: 0.2,
+        asynch: true,
+      );
+      var result = "";
+
+      recognitions.forEach((response) {
+        result += response["label"] + "\n\n";
+      });
+
+      setState(() {
+        print(result);
+      });
+    }
+    ;
+  }
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text('AnyScan'),
+      ),
+      body: Center(
+        child: Column(
+          children: <Widget>[
+            Expanded(
+              child: widget.img2 == null
+                  ? Container()
+                  : Image.file(
+                      widget.img2,
+                      height: 700.0,
+                      width: 300.0,
+                    ),
+            ),
+            Center(
+              child: Container(
+                child: Text(
+                  "Hello",
+                ),
+                height: 100.0,
+                
+              ),
             ),
           ],
         ),

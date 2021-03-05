@@ -1,0 +1,20 @@
+0 Appricot
+1 Cabbage
+2 Garlic
+3 White Onion
+4 Tomato
+5 Red Apple
+6 Yellow Capsicum
+7 Lemon
+8 Papaya
+9 Watermelon
+10 Plum
+11 Peach
+12 Green Chilli
+13 Fenugreek
+14 Coriander
+15 Mango
+16 Pumpkin
+17 Kale
+18 Spinach
+19 Banana
