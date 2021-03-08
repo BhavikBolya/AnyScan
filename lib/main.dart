@@ -173,6 +173,14 @@ class _ScanPageState extends State<ScanPage> {
               icon: Icon(Icons.camera_alt_rounded),
               iconSize: 50.0,
             ),
+            IconButton(
+              onPressed: () {
+                getImage(false);
+              },
+              color: Colors.green,
+              icon: Icon(Icons.image_rounded),
+              iconSize: 50.0,
+            ),
             Expanded(
               child: img == null
                   ? Container()
@@ -220,14 +228,15 @@ class DisplayPage extends StatefulWidget {
 class _DisplayPageState extends State<DisplayPage> {
   loadModel() async {
     await Tflite.loadModel(
-      model: "model_unquant.tflite",
-      labels: "labels.txt",
+      model: "assets/model_unquant.tflite",
+      labels: "assets/labels.txt",
     );
   }
 
   void initState() {
     super.initState();
     loadModel();
+    runModel();
   }
 
   void dispose() async {
@@ -236,24 +245,26 @@ class _DisplayPageState extends State<DisplayPage> {
     await Tflite.close();
   }
 
+  var result = "";
+
   runModel() async {
     if (widget.img2 != null) {
       var recognitions = await Tflite.runModelOnImage(
         path: widget.img2.path,
         imageMean: 127.5,
         imageStd: 127.5,
-        numResults: 3,
+        numResults: 5,
         threshold: 0.2,
         asynch: true,
       );
-      var result = "";
+      
 
       recognitions.forEach((response) {
         result += response["label"] + "\n\n";
       });
 
       setState(() {
-        print(result);
+        result;
       });
     }
     ;
@@ -280,10 +291,9 @@ class _DisplayPageState extends State<DisplayPage> {
             Center(
               child: Container(
                 child: Text(
-                  "Hello",
+                  result,
                 ),
                 height: 100.0,
-                
               ),
             ),
           ],
