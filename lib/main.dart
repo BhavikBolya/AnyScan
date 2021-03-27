@@ -33,18 +33,23 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         centerTitle: true,
         title: Text(widget.title),
       ),
-      body: Center(
+      body: Container(
         child: Stack(
           children: <Widget>[
             Container(
               alignment: Alignment.center,
-              child: Image.asset("assets/f_bg.jpg"),
-              height: double.infinity,
-              width: double.infinity,
+              //child: Image.asset("assets/f_bg.jpg"),
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  fit: BoxFit.fill,
+                  image: AssetImage("assets/f_bg.jpg"),
+                ),
+              ),
             ),
             Container(
               alignment: Alignment.center,
@@ -55,8 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     MaterialPageRoute(builder: (context) => ScanPage()),
                   );
                 },
-                color: Colors.green,
-                elevation: 30.0,
+                color: Colors.amberAccent[200],
                 child: Text(
                   'Start Scanning',
                   style: TextStyle(

@@ -1,4 +1,4 @@
-0 Banana
+Banana
 1 Cabbage
 2 Coriander
 3 Fenugreek

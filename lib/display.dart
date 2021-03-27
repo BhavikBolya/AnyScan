@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:tflite/tflite.dart';
 import 'package:flutter/material.dart';
 
-
 // ignore: must_be_immutable
 class DisplayPage extends StatefulWidget {
   String get result => null;
@@ -48,7 +47,7 @@ class _DisplayPageState extends State<DisplayPage> {
       );
 
       recognitions.forEach((response) {
-        result += response["label"]+ "\n\n";
+        result += response["label"] + "\n\n";
       });
 
       setState(() {
@@ -64,6 +63,7 @@ class _DisplayPageState extends State<DisplayPage> {
     // result += mnth;
 
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
         centerTitle: true,
         title: Text('AnyScan'),
@@ -84,8 +84,13 @@ class _DisplayPageState extends State<DisplayPage> {
               child: Container(
                 child: Text(
                   result,
+                  style: TextStyle(
+                    color: Colors.amberAccent[200],
+                    fontWeight: FontWeight.bold,
+                    fontSize: 28.0,
+                    letterSpacing: 2.0,
+                  ),
                 ),
-                height: 100.0,
               ),
             ),
           ],

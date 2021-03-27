@@ -70,12 +70,14 @@
         "Image": "assets/sample_predictions/Peas.png"
     },
     {
-        "Name": "Granysmith Apple",
+        "Name": "Grannysmith Apple",
+        "Hindi": "-",
         "Disp": "Nutrients per piece (medium)",
         "Carbohydrates": "26.0g",
+        "Protein": "0.0g",
         "Fiber": "5.9g",
         "Season": "Monsoon",
-        "Image": "assets/sample_predictions/GranysmithApple.png"
+        "Image": "assets/sample_predictions/GrannySmithApple.png"
     },
     {
         "Name": "Lemon",

@@ -84,50 +84,65 @@ class _ScanPageState extends State<ScanPage> {
         ],
       ),
       body: Center(
-        child: Column(
-          children: <Widget>[
-            IconButton(
-              onPressed: () {
-                getImage(true);
-              },
-              color: Colors.green,
-              icon: Icon(Icons.camera_alt_rounded),
-              iconSize: 50.0,
-            ),
-            IconButton(
-              onPressed: () {
-                getImage(false);
-              },
-              color: Colors.green,
-              icon: Icon(Icons.image_rounded),
-              iconSize: 50.0,
-            ),
-            Expanded(
-              child: img == null
-                  ? Container()
-                  : Image.file(
-                      img,
-                      height: 1000.0,
-                      width: 350.0,
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(0,0,0,20),
+          child: Column(
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    RaisedButton.icon(
+                      onPressed: () {
+                        getImage(true);
+                      },
+                      padding: EdgeInsets.fromLTRB(10, 0, 20, 0),
+                      color: Colors.amberAccent[200],
+                      icon: Icon(Icons.camera_alt_rounded),
+                      label: Text("Camera"),
                     ),
-            ),
-            IconButton(
-              onPressed: () {
-                if (img != null) {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => DisplayPage(img2: img)),
-                  );
-                } else {
-                  _showMyDialog();
-                }
-              },
-              color: Colors.green,
-              icon: Icon(Icons.navigate_next_rounded),
-              iconSize: 50.0,
-            ),
-          ],
+                    RaisedButton.icon(
+                      onPressed: () {
+                        getImage(false);
+                      },
+                      padding: EdgeInsets.fromLTRB(10, 0, 20, 0),
+                      color: Colors.amberAccent[200],
+                      icon: Icon(Icons.image_rounded),
+                      label: Text("Gallery"),
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: img == null
+                    ? Container()
+                    : Image.file(
+                        img,
+                        height: 1000.0,
+                        width: 350.0,
+                      ),
+              ),
+              RaisedButton.icon(
+                onPressed: () {
+                  if (img != null) {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => DisplayPage(img2: img)),
+                    );
+                  } else {
+                    _showMyDialog();
+                  }
+                },
+                padding: EdgeInsets.fromLTRB(10, 0, 20, 0),
+                color: Colors.amberAccent[200],
+                icon: Icon(Icons.navigate_next_rounded),
+                label: Text("Detect"),
+              ),
+              
+            ],
+          ),
         ),
       ),
     );
@@ -185,7 +200,7 @@ class Search extends SearchDelegate {
     'coriander',
     'fenugreek',
     'peas',
-    'granysmith apple',
+    'grannysmith apple',
     'tomato',
     'lemon',
     'orange',
@@ -227,9 +242,10 @@ class Search extends SearchDelegate {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => TestPage(
-                          fruit_name: selectedResult,
-                        )),
+                  builder: (context) => TestPage(
+                    fruit_name: selectedResult,
+                  ),
+                ),
               );
             },
           );
