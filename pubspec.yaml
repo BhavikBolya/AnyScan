@@ -28,6 +28,8 @@ dependencies:
   cupertino_icons: ^1.0.0
   image_picker:
   tflite: 
+  excel: 
+  csv: 
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +47,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets: 
+    - assets/
+    - assets/sample_predictions/
     - assets/f_bg.jpg
     - assets/model_unquant.tflite
     - assets/labels.txt

@@ -1,0 +1,150 @@
+[
+    {
+        "Name": "Mango",
+        "Hindi": "Aam/ आम",
+        "Disp": "Nutrients per piece",
+        "Carbohydrates": "15g",
+        "Protein": "0.8g",
+        "Fiber": "1.6g",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Mango.png"
+    },
+    {
+        "Name": "Green Chili",
+        "Hindi": "Hari Mirchi/ हरी मिर्च",
+        "Disp": "Nutrients per pepper",
+        "Carbohydrates": "1.4g",
+        "Protein": "1.3g",
+        "Fiber": "0.7g",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/GreenChili.png"
+    },
+    {
+        "Name": "Cabbage",
+        "Hindi": "Gobi/ गोबी",
+        "Disp": "Nutrients per cup",
+        "Carbohydrates": "3.2g",
+        "Protein": "1.3g",
+        "Fiber": "2.0g",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Cabbage.png"
+    },
+    {
+        "Name": "French Beans",
+        "Hindi": "फ़्रेंच बीन",
+        "Disp": "Nutrients per cup",
+        "Carbohydrates": "8.3g",
+        "Protein": "3.1g",
+        "Fiber": "4.6g",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/FrenchBeans.png"
+    },
+    {
+        "Name": "Coriander",
+        "Hindi": "Dhaniya/ धनिया",
+        "Disp": "Nutrients per cup",
+        "Carbohydrates": "1.0g",
+        "Protein": "0.5g",
+        "Fiber": "0.7g",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Coriander.png"
+    },
+    {
+        "Name": "Fenugreek",
+        "Hindi": "Methi/ मेथी",
+        "Disp": "Nutrients per cup",
+        "Carbohydrates": "1.3g",
+        "Protein": "0.9g",
+        "Fiber": "1.0g",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Fenugreek.png"
+    },
+    {
+        "Name": "Peas",
+        "Hindi": "Matar/ मटर",
+        "Disp": "Nutrients per cup",
+        "Carbohydrates": "23.1g",
+        "Protein": "10.4g",
+        "Fiber": "12.5g",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Peas.png"
+    },
+    {
+        "Name": "Granysmith Apple",
+        "Disp": "Nutrients per piece (medium)",
+        "Carbohydrates": "26.0g",
+        "Fiber": "5.9g",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/GranysmithApple.png"
+    },
+    {
+        "Name": "Lemon",
+        "Hindi": "Nimboo/ नींबू",
+        "Disp": "Nutrients per piece",
+        "Carbohydrates": "7.4g",
+        "Protein": "0.7g",
+        "Fiber": "1.9g",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/Lemon.png"
+    },
+    {
+        "Name": "Watermelon",
+        "Hindi": "Tarbooj/ तरबूज",
+        "Disp": "Nutrients per cup",
+        "Carbohydrates": "5.0g",
+        "Protein": "0.3g",
+        "Fiber": "0.9g",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Watermelon.png"
+    },
+    {
+        "Name": "Tomato",
+        "Hindi": "Tamatar/ टमाटर",
+        "Disp": "Nutrients per piece",
+        "Carbohydrates": "3.9g",
+        "Protein": "0.9g",
+        "Fiber": "1.2g",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Tomato.png"
+    },
+    {
+        "Name": "Orange",
+        "Hindi": "Santara/ संतरा",
+        "Disp": "Nutrients per piece",
+        "Carbohydrates": "12g",
+        "Protein": "0.9g",
+        "Fiber": "2.4g",
+        "Season": "Summer and Winter",
+        "Image": "assets/sample_predictions/Orange.png"
+    },
+    {
+        "Name": "Papaya",
+        "Hindi": "Papita/ पपीता",
+        "Disp": "Nutrients per piece",
+        "Carbohydrates": "13g",
+        "Protein": "29g",
+        "Fiber": "4g",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/Papaya.png"
+    },
+    {
+        "Name": "Red Apple",
+        "Hindi": "Seb/ सेब",
+        "Disp": "Nutrients per piece",
+        "Carbohydrates": "14g",
+        "Protein": "0.3g",
+        "Fiber": "2.4g",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/RedApple.png"
+    },
+    {
+        "Name": "Banana",
+        "Hindi": "Kela/ केला",
+        "Disp": "Nutrients per piece",
+        "Carbohydrates": "23g",
+        "Protein": "1.1g",
+        "Fiber": "2.6g",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Banana.png"
+    }
+]
