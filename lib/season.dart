@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert' show JsonDecoder;
 import 'package:anyscan/scan.dart';
+
 // ignore: must_be_immutable
 class SeasonPage extends StatefulWidget {
   @override
@@ -16,6 +17,7 @@ class _SeasonPageState extends State<SeasonPage> {
   List data;
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       backgroundColor: Colors.grey[900],
       appBar: AppBar(
@@ -27,9 +29,7 @@ class _SeasonPageState extends State<SeasonPage> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                      builder: (context) =>
-                          ScanPage()),
+                  MaterialPageRoute(builder: (context) => ScanPage()),
                 );
               }),
         ],
@@ -45,8 +45,11 @@ class _SeasonPageState extends State<SeasonPage> {
                 var mydata = JsonDecoder().convert(snapshot.data.toString());
                 return ListView.builder(
                   itemBuilder: (BuildContext context, int index) {
+                    double width = MediaQuery.of(context).size.width;
                     String season1 = mydata[index]['Season'].toString();
-                    if (season1.toLowerCase().contains(widget.season.toLowerCase()))
+                    if (season1
+                        .toLowerCase()
+                        .contains(widget.season.toLowerCase()))
                       return Card(
                         color: Colors.grey[900],
                         child: Padding(
@@ -54,139 +57,150 @@ class _SeasonPageState extends State<SeasonPage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: <Widget>[
-                              SizedBox(height: 10.0),
-                              Center(
-                                child: CircleAvatar(
-                                  radius: 100.0,
-                                  backgroundColor: Colors.grey[900],
-                                  backgroundImage:
-                                      AssetImage('' + mydata[index]['Image']),
-                                ),
-                              ),
-                              Divider(
-                                color: Colors.grey[500],
-                                height: 60.0,
-                              ),
-                              Text(
-                                'NAME',
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 10.0),
-                              Text(
-                                "" + mydata[index]['Name'],
-                                style: TextStyle(
-                                  color: Colors.amberAccent[200],
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 28.0,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 30.0),
-                              Text(
-                                'HINDI NAME',
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 10.0),
-                              Text(
-                                "" + mydata[index]['Hindi'],
-                                style: TextStyle(
-                                  color: Colors.amberAccent[200],
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 28.0,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 30.0),
-                              Text(
-                                "" + mydata[index]['Disp'],
-                                style: TextStyle(
-                                  color: Colors.amberAccent[200],
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 28.0,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 30.0),
-                              Text(
-                                'CARBOHYDRATES',
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 10.0),
-                              Text(
-                                "" + mydata[index]['Carbohydrates'],
-                                style: TextStyle(
-                                  color: Colors.amberAccent[200],
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 28.0,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 30.0),
-                              Text(
-                                'PROTEIN',
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 10.0),
-                              Text(
-                                "" + mydata[index]['Protein'],
-                                style: TextStyle(
-                                  color: Colors.amberAccent[200],
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 28.0,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 30.0),
-                              Text(
-                                'FIBER',
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 10.0),
-                              Text(
-                                "" + mydata[index]['Fiber'],
-                                style: TextStyle(
-                                  color: Colors.amberAccent[200],
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 28.0,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 30.0),
-                              Text(
-                                'SEASON',
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              SizedBox(height: 10.0),
-                              Text(
-                                "" + mydata[index]['Season'],
-                                style: TextStyle(
-                                  color: Colors.amberAccent[200],
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 28.0,
-                                  letterSpacing: 2.0,
-                                ),
-                              ),
-                              Divider(
-                                color: Colors.grey[500],
-                                height: 38.0,
+                              Row(
+                                children: [
+                                  SizedBox(height: 10.0),
+                                  Center(
+                                    child: CircleAvatar(
+                                      radius: 45.0,
+                                      backgroundColor: Colors.grey[900],
+                                      backgroundImage: AssetImage(
+                                          '' + mydata[index]['Image']),
+                                    ),
+                                  ),
+                                  Divider(
+                                    color: Colors.grey[500],
+                                    height: 60.0,
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(left:25.0),
+                                    child: Column(
+                                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Row(
+                                          children: [
+                                            Text(
+                                              'NAME :',
+                                              style: TextStyle(
+                                                color: Colors.grey,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                            SizedBox(width: 10.0),
+                                            Text(
+                                              "" + mydata[index]['Name'],
+                                              style: TextStyle(
+                                                color: Colors.amberAccent[200],
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 18.0,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        SizedBox(height: 3.0),
+                                        Row(
+                                          children: [
+                                            Text(
+                                              'HINDI NAME :',
+                                              style: TextStyle(
+                                                color: Colors.grey,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                            SizedBox(width: 10.0),
+                                            Text(
+                                              "" + mydata[index]['Hindi'],
+                                              style: TextStyle(
+                                                color: Colors.amberAccent[200],
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: width*0.04,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        SizedBox(height: 3.0),
+                                        Text(
+                                          "" + mydata[index]['Disp'],
+                                          style: TextStyle(
+                                            color: Colors.amberAccent[200],
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 18.0,
+                                            letterSpacing: 0.0,
+                                          ),
+                                        ),
+                                        SizedBox(height: 3.0),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                          children: [
+                                            Text(
+                                              'CARBS',
+                                              style: TextStyle(
+                                                color: Colors.grey,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                            SizedBox(width: 10.0),
+                                            Text(
+                                              'PROTEIN',
+                                              style: TextStyle(
+                                                color: Colors.grey,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                            SizedBox(width: 10.0),
+                                            Text(
+                                              'FIBER',
+                                              style: TextStyle(
+                                                color: Colors.grey,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        SizedBox(height: 10.0),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                          children: [
+                                            Text(
+                                              "" + mydata[index]['Carbohydrates'],
+                                              style: TextStyle(
+                                                color: Colors.amberAccent[200],
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 18.0,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                            Text(
+                                              "    " + mydata[index]['Protein'],
+                                              style: TextStyle(
+                                                color: Colors.amberAccent[200],
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 18.0,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                            Text(
+                                              "     " + mydata[index]['Fiber'],
+                                              style: TextStyle(
+                                                color: Colors.amberAccent[200],
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 18.0,
+                                                letterSpacing: 0.0,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Divider(
+                                    color: Colors.grey[500],
+                                    height: 38.0,
+                                  ),
+                                ],
                               ),
                               //SizedBox(height: 38.0),
                             ],

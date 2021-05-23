@@ -21,8 +21,10 @@ class _ScanPageState extends State<ScanPage> {
   Future getImage(bool isCamera) async {
     File image;
     if (isCamera) {
+      // ignore: deprecated_member_use
       image = await ImagePicker.pickImage(source: ImageSource.camera);
     } else {
+      // ignore: deprecated_member_use
       image = await ImagePicker.pickImage(source: ImageSource.gallery);
     }
     setState(() {
@@ -140,7 +142,6 @@ class _ScanPageState extends State<ScanPage> {
                 icon: Icon(Icons.navigate_next_rounded),
                 label: Text("Detect"),
               ),
-              
             ],
           ),
         ),
@@ -182,10 +183,43 @@ class Search extends SearchDelegate {
 
   @override
   Widget buildResults(BuildContext context) {
+    List<String> suggestionList = [];
+    query.isEmpty
+        ? suggestionList = listExample
+        : suggestionList.addAll((list2.where(
+            (element) => element.contains(query.toLowerCase()),
+          )));
     return Container(
       color: Colors.grey[900],
-      child: Center(
-        child: Text(selectedResult),
+      child: ListView.builder(
+        itemCount: suggestionList.length,
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: Text(
+              suggestionList[index],
+              style: TextStyle(
+                color: Colors.amberAccent[200],
+              ),
+            ),
+            leading: query.isEmpty
+                ? Icon(
+                    Icons.access_time,
+                    color: Colors.amberAccent[200],
+                  )
+                : SizedBox(),
+            onTap: () {
+              selectedResult = suggestionList[index];
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => TestPage(
+                    fruit_name: selectedResult,
+                  ),
+                ),
+              );
+            },
+          );
+        },
       ),
     );
   }
@@ -218,7 +252,6 @@ class Search extends SearchDelegate {
         : suggestionList.addAll((list2.where(
             (element) => element.contains(query.toLowerCase()),
           )));
-    print(suggestionList);
     return Container(
       color: Colors.grey[900],
       child: ListView.builder(

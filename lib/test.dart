@@ -12,10 +12,32 @@ class TestPage extends StatefulWidget {
   TestPage({Key key, @required this.fruit_name}) : super(key: key);
 }
 
+month() {
+  DateTime now = new DateTime.now();
+  String sea1 = '';
+  if (now.month == 3 || now.month == 4 || now.month == 5) {
+    sea1 = "Summer";
+  }
+  if (now.month == 6 || now.month == 7 || now.month == 8 || now.month == 9) {
+    sea1 = "Monsoon";
+  }
+  if (now.month == 10 ||
+      now.month == 11 ||
+      now.month == 12 ||
+      now.month == 1 ||
+      now.month == 2) {
+    sea1 = "Winter";
+  }
+  return sea1;
+}
+
 class _TestPageState extends State<TestPage> {
   List data;
+  String mont = month();
+  
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       backgroundColor: Colors.grey[900],
       appBar: AppBar(
@@ -172,11 +194,31 @@ class _TestPageState extends State<TestPage> {
                                   letterSpacing: 2.0,
                                 ),
                               ),
+                              SizedBox(height: 30.0),
+                              Text(
+                                'AVAILABILITY',
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  letterSpacing: 2.0,
+                                ),
+                              ),
+                              SizedBox(height: 10.0),
+                              Text(
+                                mydata[index]['Season'].contains(mont) ||
+                                        mydata[index]['Season'] == 'All seasons'
+                                    ? "Good quality item might be available in the market."
+                                    : "Not the best time to buy.",
+                                style: TextStyle(
+                                  color: Colors.amberAccent[200],
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 28.0,
+                                  letterSpacing: 2.0,
+                                ),
+                              ),
                               Divider(
                                 color: Colors.grey[500],
                                 height: 38.0,
                               ),
-                              //SizedBox(height: 38.0),
                             ],
                           ),
                         ),
