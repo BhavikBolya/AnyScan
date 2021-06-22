@@ -1,0 +1,1163 @@
+[
+    {
+        "Name": "Apricot",
+        "Hindi": "खुबानी/ Khubani",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "11.2",
+        "Protein": "1.4",
+        "Fiber": "2",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/Apricot.png"
+    },
+    {
+        "Name": "Artichoke",
+        "Hindi": "Hathe Chak/हाथी चक",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "10.51",
+        "Protein": "3.27",
+        "Fiber": "5.4",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Artichoke.png"
+    },
+    {
+        "Name": "Arugula",
+        "Hindi": "-",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "0.73",
+        "Protein": "0.52",
+        "Fiber": "1.6",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Arugula.png"
+    },
+    {
+        "Name": "Asparagus",
+        "Hindi": "शतावरी/ Shatavari",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "1.8",
+        "Protein": "2.2",
+        "Fiber": "1",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Asparagus.png"
+    },
+    {
+        "Name": "Avocado",
+        "Hindi": "एवोकैडो",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "8.53",
+        "Protein": "2",
+        "Fiber": "6.7",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Avocado.png"
+    },
+    {
+        "Name": "Banana",
+        "Hindi": "Kela/ केला",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "88.3",
+        "Protein": "3.9",
+        "Fiber": "9.9",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Banana.png"
+    },
+    {
+        "Name": "Bathua",
+        "Hindi": "बथुआ",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "12",
+        "Protein": "2.8",
+        "Fiber": "10",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Bathua.png"
+    },
+    {
+        "Name": "Beetroot",
+        "Hindi": "चुकंदर/ Chakundar",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.6",
+        "Protein": "1.6",
+        "Fiber": "2.8",
+        "Season": "Summer and Winter",
+        "Image": "assets/sample_predictions/Beetroot.png"
+    },
+    {
+        "Name": "Bitter Gourd",
+        "Hindi": "करेला/ Karela",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "5.38",
+        "Protein": "4.17",
+        "Fiber": "1.9",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/BitterGuard.png"
+    },
+    {
+        "Name": "Black Grapes",
+        "Hindi": "Kaale Angoor/काले अंगूर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "13.39",
+        "Protein": "0.7",
+        "Fiber": "0.8",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/BlackGrapes.png"
+    },
+    {
+        "Name": "Blackberry",
+        "Hindi": "ब्लैकबेरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.61",
+        "Protein": "11",
+        "Fiber": "5.3",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Blackberry.png"
+    },
+    {
+        "Name": "Blueberry",
+        "Hindi": "Neelbadari/नीलबदरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "14.49",
+        "Protein": "0.74",
+        "Fiber": "2.4",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Blueberry.png"
+    },
+    {
+        "Name": "Bottle Gourd",
+        "Hindi": "लौकी/ Lauki",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.69",
+        "Protein": "0.4",
+        "Fiber": "1.2",
+        "Season": "Monsoon and Summer",
+        "Image": "assets/sample_predictions/BottleGuard.png"
+    },
+    {
+        "Name": "Brinjal",
+        "Hindi": "बैंगन/ Baingan",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.77",
+        "Protein": "0.9",
+        "Fiber": "2.5",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/Brinjal.png"
+    },
+    {
+        "Name": "Broccoli",
+        "Hindi": "Broccoli/ब्रोकोली",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "7",
+        "Protein": "2.8",
+        "Fiber": "2.6",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Broccoli.png"
+    },
+    {
+        "Name": "Brussel Sprouts",
+        "Hindi": "ब्रसल स्प्राउट",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9",
+        "Protein": "3.4",
+        "Fiber": "3.8",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/BrusselSprouts.png"
+    },   
+    {
+        "Name": "Cabbage",
+        "Hindi": "Gobi/गोबी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "23.2",
+        "Protein": "5.2",
+        "Fiber": "10",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Cabbage.png"
+    },
+    {
+        "Name": "Carrot",
+        "Hindi": "Gajar/गाजर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.58",
+        "Protein": "0.93",
+        "Fiber": "3.3",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/Carrot.png"
+    },     
+    {
+        "Name": "Cashew Apple",
+        "Hindi": "Kaju Phal/काजू फल",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "30",
+        "Protein": "18",
+        "Fiber": "3.3",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/CashewApple.png"
+    },        
+    {
+        "Name": "Cauliflower",
+        "Hindi": "Goobhee/गोभी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "5",
+        "Protein": "1.9",
+        "Fiber": "2",
+        "Season": "All Seasons",
+        "Image": "assets/sample_predictions/Cauliflower.png"
+    },        
+    {
+        "Name": "Celery",
+        "Hindi": "Ajamoda/अजमोदा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3",
+        "Protein": "0.7",
+        "Fiber": "1.6",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Celery.png"
+    },       
+    {
+        "Name": "Cherry",
+        "Hindi": "Cheree/चेरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "12",
+        "Protein": "1",
+        "Fiber": "1.6",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/Cherry.png"
+    },        
+    {
+        "Name": "Coconut(Green)",
+        "Hindi": "Nariyal/नारियल",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.7",
+        "Protein": "0.7",
+        "Fiber": "1.1",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Coconut(Green).png"
+    },        
+    {
+        "Name": "Coconut(Kopra)",
+        "Hindi": "Khopra/खोपरा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "24.33",
+        "Protein": "3.33",
+        "Fiber": "9",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Coconut(Kopra).png"
+    },        
+    {
+        "Name": "Colocasia",
+        "Hindi": "Aalukee/आलुकी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "26",
+        "Protein": "1.5",
+        "Fiber": "4.1",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Colocasia.png"
+    },        
+    {
+        "Name": "Coriander",
+        "Hindi": "Dhaniya/ धनिया",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "54.99",
+        "Protein": "12.37",
+        "Fiber": "2.8",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Coriander.png"
+    },
+    {
+        "Name": "Corn Cob",
+        "Hindi": "Makka/मक्का",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "21",
+        "Protein": "3.4",
+        "Fiber": "2.4",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/CornCob.png"
+    },        
+    {
+        "Name": "Cranberry",
+        "Hindi": "क्रैनबेरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "82",
+        "Protein": "0.1",
+        "Fiber": "6",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Cranberry.png"
+    },       
+    {
+        "Name": "Cucumber",
+        "Hindi": "Khera/खीरा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.6",
+        "Protein": "0.7",
+        "Fiber": "0.5",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Cucumber.png"
+    },        
+    {
+        "Name": "Curry Leaf",
+        "Hindi": "Karee Pataa/करी पत्ते",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "2.7",
+        "Protein": "3.2",
+        "Fiber": "1.6",
+        "Season": "All season",
+        "Image": "assets/sample_predictions/CurryLeaf.png"
+    },        
+    {
+        "Name": "Custard Apple",
+        "Hindi": "Shareepha/शरीफा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "24",
+        "Protein": "2.1",
+        "Fiber": "4.4",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/CustardApple.png"
+    },        
+    {
+        "Name": "Dill Leaf",
+        "Hindi": "Soaa/सोआ ",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "7",
+        "Protein": "3.5",
+        "Fiber": "2.1",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/DillLeaf.png"
+    },        
+    {
+        "Name": "Dragon Fruit",
+        "Hindi": "ड्रैगन फ्रूट",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "13",
+        "Protein": "1.2",
+        "Fiber": "3",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/DragonFruit.png"
+    },        
+    {
+        "Name": "Drumstick",
+        "Hindi": "Sahjan/सहजन",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "8.3",
+        "Protein": "9.4",
+        "Fiber": "2",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/Drumstick.png"
+    },        
+    {
+        "Name": "Elephant Foot",
+        "Hindi": "Jamikand/जिमीकंद",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "11",
+        "Protein": "1.6",
+        "Fiber": "3.57",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/ElephantFoot.png"
+    },       
+    {
+        "Name": "Fennel Bulb",
+        "Hindi": "Saumph/सौंफ",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "7",
+        "Protein": "1.2",
+        "Fiber": "3.1",
+        "Season": "Winter(Rare)",
+        "Image": "assets/sample_predictions/FennelBulb.png"
+    },        
+    {
+        "Name": "Fenugreek",
+        "Hindi": "Methi/ मेथी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "33.75",
+        "Protein": "23",
+        "Fiber": "25",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Fenugreek.png"
+    },
+    {
+        "Name": "Fig",
+        "Hindi": "Anjeer/अंजीर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "19",
+        "Protein": "0.8",
+        "Fiber": "2.9",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Fig.png"
+    },        
+    {
+        "Name": "Flat Beans",
+        "Hindi": "Sem/सेम",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "63",
+        "Protein": "21",
+        "Fiber": "16",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/FlatBeans.png"
+    }, 
+    {
+        "Name": "French Beans",
+        "Hindi": "फ़्रेंच बीन",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "64.11",
+        "Protein": "18.1",
+        "Fiber": "0.1",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/FrenchBeans.png"
+    },       
+    {
+        "Name": "French Onions",
+        "Hindi": "phransese pyaj/फ्रांसीसी प्याज",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "31",
+        "Protein": "3.2",
+        "Fiber": "1.8",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/FrenchOnion.png"
+    },        
+    {
+        "Name": "Garlic",
+        "Hindi": "Lahasun/लहसुन",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "33",
+        "Protein": "6.4",
+        "Fiber": "2.1",
+        "Season": "All sesaons",
+        "Image": "assets/sample_predictions/Garlic.png"
+    },        
+    {
+        "Name": "Ginger",
+        "Hindi": "Adrak/अदरक",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "18",
+        "Protein": "1.8",
+        "Fiber": "2",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Ginger.png"
+    },        
+    {
+        "Name": "Golden Berry",
+        "Hindi": "Rasbhari/रसभरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "61",
+        "Protein": "7.1",
+        "Fiber": "18",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/GoldenBerry.jpg"
+    },
+    {
+        "Name": "Golden/Yellow Apple",
+        "Hindi": "Sunhera Seb/सुनहरा सेब",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "13.8",
+        "Protein": "0.3",
+        "Fiber": "2.4",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/GoldenApple.png"
+    },        
+    {
+        "Name": "Gooseberry",
+        "Hindi": "Amala/आंवला ",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "10",
+        "Protein": "0.9",
+        "Fiber": "4.3",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/Gooseberry.png"
+    },        
+    {
+        "Name": "Granny Smith Apple",
+        "Hindi": "Hara Seb/हरे सेब",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "14",
+        "Protein": "0.4",
+        "Fiber": "2.8",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/GrannySmithApple.png"
+    },        
+    {
+        "Name": "Green Capsicum",
+        "Hindi": "Haree Shimala Mirch/हरी शिमला मिर्च",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "4.6",
+        "Protein": "0.9",
+        "Fiber": "1.7",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/GreenCapsicum.png"
+    },        
+    {
+        "Name": "Green Chickpeas",
+        "Hindi": "Hara Chanaa/हरा चना",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "63",
+        "Protein": "20",
+        "Fiber": "12",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/GreenChickpeas.png"
+    },     
+    {
+        "Name": "Green Chili",
+        "Hindi": "Hari Mirchi/ हरी मिर्च",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.46",
+        "Protein": "2",
+        "Fiber": "1.5",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/GreenChili.png"
+    },   
+    {
+        "Name": "Green Garlic",
+        "Hindi": "Hara Lahasun/हरा लहसुन",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "33",
+        "Protein": "6.4",
+        "Fiber": "2.1",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/GreenGarlic.png"
+    },    
+    {
+        "Name": "Green Grapes",
+        "Hindi": "Angoor/अंगूर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "19.65",
+        "Protein": "0.48",
+        "Fiber": "0.9",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/GreenGrapes.png"
+    },    
+    {
+        "Name": "Green Zucchini",
+        "Hindi": "Peeli Toree/ पीली तोरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.11",
+        "Protein": "1.21",
+        "Fiber": "1",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/GreenZucchini.png"
+    },
+    {
+        "Name": "Guava",
+        "Hindi": "Amrood/अमरूद",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "14",
+        "Protein": "2.6",
+        "Fiber": "5",
+        "Season": "Summer and Winter",
+        "Image": "assets/sample_predictions/Guava.png"
+    },        
+    {
+        "Name": "Ice Apple",
+        "Hindi": "Taadgola/ताड़गोला",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "10",
+        "Protein": "0",
+        "Fiber": "1",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/IceApple.png"
+    },        
+    {
+        "Name": "Jackfruit",
+        "Hindi": "Kathal/कटहल",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "38.3",
+        "Protein": "2.9",
+        "Fiber": "2.5",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Jackfruit.png"
+    },        
+    {
+        "Name": "Jackfruit Pulp",
+        "Hindi": "Kathal/कटहल",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "38.3",
+        "Protein": "2.9",
+        "Fiber": "2.5",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Jackfruit(Pulp).png"
+    },   
+    {
+        "Name": "Jamun",
+        "Hindi": "काला जामुन",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "31.62",
+        "Protein": "3.84",
+        "Fiber": "7.01",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Jamun.png"
+    },    
+    {
+        "Name": "Kale",
+        "Hindi": "केल ",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "1.4",
+        "Protein": "3.1",
+        "Fiber": "3.5",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Kale.png"
+    },        
+    {
+        "Name": "Kholrabi",
+        "Hindi": "Kolhaabee/कोल्हाबी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "6.5",
+        "Protein": "1.75",
+        "Fiber": "4.5",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Kholrabi.png"
+    },        
+    {
+        "Name": "Kiwi",
+        "Hindi": "कीवी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "15",
+        "Protein": "1.1",
+        "Fiber": "3",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Kiwi.png"
+    },        
+    {
+        "Name": "Lady Finger",
+        "Hindi": "Bhindee/भिन्डी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "7",
+        "Protein": "1.9",
+        "Fiber": "3.2",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/LadyFinger.png"
+    },  
+    {
+        "Name": "Lemon",
+        "Hindi": "Nimboo/ नींबू",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.32",
+        "Protein": "1.1",
+        "Fiber": "2.8",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Lemon.png"
+    },      
+    {
+        "Name": "Litchi",
+        "Hindi": "लीची",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "17",
+        "Protein": "0.8",
+        "Fiber": "1.3",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Litchi.png"
+    },        
+    {
+        "Name": "Mango",
+        "Hindi": "Aam/ आम",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "35.9",
+        "Protein": "0.8",
+        "Fiber": "1.6",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Mango.png"
+    },  
+    {
+        "Name": "Melon",
+        "Hindi": "Kharbooj/खरबूज",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "7.6",
+        "Protein": "0.6",
+        "Fiber": "0.4",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Melon.png"
+    },
+    {
+        "Name": "Mint",
+        "Hindi": "Pudina/पुदीना",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "8.16",
+        "Protein": "0.84",
+        "Fiber": "0.9",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Mint.png"
+    },
+    {
+        "Name": "Mud Apple",
+        "Hindi": "Chikoo/चीकू",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "34",
+        "Protein": "0.75",
+        "Fiber": "9",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Chikoo.png"
+    },
+    {
+        "Name": "Mulberry",
+        "Hindi": "Shehtoot/शहतूत",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.8",
+        "Protein": "1.4",
+        "Fiber": "1.7",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Mulberry.png"
+    },
+    {
+        "Name": "Mushrooms",
+        "Hindi": "Mushroom/मशरूम",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.26",
+        "Protein": "3.09",
+        "Fiber": "1",
+        "Season": "All Seasons",
+        "Image": "assets/sample_predictions/Mushroom.png"
+    },  
+    {
+        "Name": "Orange Capsicum",
+        "Hindi": "Shimala Mirch/ शिमला मिर्च",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "4.6",
+        "Protein": "0.9",
+        "Fiber": "1.7",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/OrangeCapsicum.png"
+    }, 
+    {
+        "Name": "Orange/Kenu",
+        "Hindi": "Santara/ संतरा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "12.54",
+        "Protein": "0.94",
+        "Fiber": "4.5",
+        "Season": "Summer and Winter",
+        "Image": "assets/sample_predictions/Orange.png"
+    }, 
+    {
+        "Name": "Papaya",
+        "Hindi": "Papita/पपीता",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "6.9",
+        "Protein": "1.5",
+        "Fiber": "3.5",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/Papaya.png"
+    },
+    {
+        "Name": "Parsnip",
+        "Hindi": "-",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "24",
+        "Protein": "1.5",
+        "Fiber": "6.5",
+        "Season": "Monsoon and Winter",
+        "Image": "assets/sample_predictions/Parsnip.png"
+    },
+    {
+        "Name": "Passion Fruit",
+        "Hindi": "पैशन फ्रूट",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "55.2",
+        "Protein": "5.2",
+        "Fiber": "24.5",
+        "Season": "All Seasons",
+        "Image": "assets/sample_predictions/PassionFruit.png"
+    },
+    {
+        "Name": "Peach",
+        "Hindi": "Aadu/आडू",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.5",
+        "Protein": "0.9",
+        "Fiber": "1.5",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Peach.png"
+    },
+    {
+        "Name": "Peanut",
+        "Hindi": "Moongfali/मूंगफली",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "16.13",
+        "Protein": "25.8",
+        "Fiber": "8.5",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Peanut.png"
+    },
+    {
+        "Name": "Pear",
+        "Hindi": "Naashpati/नाशपाती",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.2",
+        "Protein": "0.33",
+        "Fiber": "2.72",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Pear.png"
+    },
+    {
+        "Name": "Peas",
+        "Hindi": "Matar/मटर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "14",
+        "Protein": "5.4",
+        "Fiber": "5.7",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Peas.png"
+    },
+    {
+        "Name": "Pineapple",
+        "Hindi": "Ananas/अनन्नास",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "13.12",
+        "Protein": "0.54",
+        "Fiber": "1.4",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Pineapple.png"
+    },
+    {
+        "Name": "Plum",
+        "Hindi": "Plum/बेर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.6",
+        "Protein": "0.6",
+        "Fiber": "1.4",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Plum.png"
+    },
+    {
+        "Name": "Pomegranate",
+        "Hindi": "Pomegranate/बेर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "18.70",
+        "Protein": "3",
+        "Fiber": "7",
+        "Season": "All Seasons",
+        "Image": "assets/sample_predictions/Pomegranate.png"
+    },
+    {
+        "Name": "Potato",
+        "Hindi": "Aloo/आलु",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "20.1",
+        "Protein": "2",
+        "Fiber": "1.8",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/Potato.png"
+    },
+    {
+        "Name": "Pumpkin",
+        "Hindi": "Kaddu/कद्दू",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "12",
+        "Protein": "1.76",
+        "Fiber": "2.7",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Pumpkin.png"
+    },
+    {
+        "Name": "Radish",
+        "Hindi": "Mooli/मूली",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "63.37",
+        "Protein": "7.9",
+        "Fiber": "1.6",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Radish.png"
+    },
+    {
+        "Name": "Rambutan",
+        "Hindi": "Rambutan/रामबुतान",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "20.87",
+        "Protein": "0.65",
+        "Fiber": "0.9",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Rambutan.png"
+    },
+    {
+        "Name": "Raspberry",
+        "Hindi": "Rasabhari/रसभरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "11.94",
+        "Protein": "1.2",
+        "Fiber": "6.5",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Raspberry.png"
+    },
+    {
+        "Name": " Raw Mango",
+        "Hindi": "Kaccha Aam/ कच्चा आम",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "35.9",
+        "Protein": "0.8",
+        "Fiber": "1.6",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/RawMango.png"
+    },
+    {
+        "Name": "Red Apple",
+        "Hindi": "Seb/ सेब",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "14",
+        "Protein": "0.3",
+        "Fiber": "2.3",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/RedApple.png"
+    },
+    {
+        "Name": "Red Banana",
+        "Hindi": "Lal Kele/ लाल केले",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "21",
+        "Protein": "1.1",
+        "Fiber": "2.6",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/RedBanana.png"
+    },
+    {
+        "Name": "Red Cabbage",
+        "Hindi": "Lal Patta Ghobi/ लाल गोभी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "4",
+        "Protein": "1",
+        "Fiber": "3",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/RedCabbage.png"
+    },
+    {
+        "Name": "Red Capsicum",
+        "Hindi": "Lal Shimla Mirch/ लाल शिमला मिर्च",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.5",
+        "Protein": "1.5",
+        "Fiber": "1.8",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/RedCapsicum.png"
+    },
+    {
+        "Name": "Red Chilli",
+        "Hindi": "Lal Mirch/ लाल मिर्च",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "1.3",
+        "Protein": "0.3",
+        "Fiber": "0.2",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/RedChilli.png"
+    },
+    {
+        "Name": "Red Dates",
+        "Hindi": "Khajoor/ खजूर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "58",
+        "Protein": "2.4",
+        "Fiber": "4",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/RedDates.png"
+    },
+    {
+        "Name": "Red Grapes",
+        "Hindi": "Laal angoor/लाल अंगूर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "18",
+        "Protein": "0.6",
+        "Fiber": "0.6",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/RedGrapes.png"
+    },
+    {
+        "Name": "Red Onion",
+        "Hindi": "-",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "6.1",
+        "Protein": "1.2",
+        "Fiber": "1.7",
+        "Season": "All seasons",
+        "Image": "assets/sample_predictions/RedOnion.png"
+    },
+    {
+        "Name": "Rhubarb",
+        "Hindi": "-",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "4.5",
+        "Protein": "0.9",
+        "Fiber": "1.8",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Rhubarb.png"
+    },
+    {
+        "Name": "Ridge Gourd",
+        "Hindi": "तोरई",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "4.5",
+        "Protein": "0.9",
+        "Fiber": "1.8",
+        "Season": "All Seasons",
+        "Image": "assets/sample_predictions/RidgeGourd.png"
+    },
+    {
+        "Name": "Snake Gourd",
+        "Hindi": "चिचिण्डा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "12.5",
+        "Protein": "2",
+        "Fiber": "0.6",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/SnakeGourd.png"
+    },
+    {
+        "Name": "Spinach",
+        "Hindi": "Paalak/पालक",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.6",
+        "Protein": "2.9",
+        "Fiber": "2.2",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Spinach.png"
+    },
+    {
+        "Name": "Squash",
+        "Hindi": "Squash/स्क्वाश",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "21.5",
+        "Protein": "1.8",
+        "Fiber": "6.6",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/Squash.png"
+    },
+    {
+        "Name": "Star Fruit",
+        "Hindi": "Kamrakh Fal/कमरख फल",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "6",
+        "Protein": "1",
+        "Fiber": "3",
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/StarFruit.png"
+    },
+    {
+        "Name": "Strawberry",
+        "Hindi": "Strawberry/स्ट्रॉबेरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "7.7",
+        "Protein": "0.7",
+        "Fiber": "2",
+        "Season": "All Seasons",
+        "Image": "assets/sample_predictions/Strawberry.png"
+    },
+    {
+        "Name": "Sweet Potato",
+        "Hindi": "Shakarkand/शकरकंद",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "20.1",
+        "Protein": "1.6",
+        "Fiber": "3",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/SweetPotato.png"
+    },
+    {
+        "Name": "Tamarind",
+        "Hindi": "Imli/इमली",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "36",
+        "Protein": "1.95",
+        "Fiber": "3.6",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Tamarind.png"
+    },
+    {
+        "Name": "Tinde",
+        "Hindi": "Tinda/टिण्डा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "12.5",
+        "Protein": "2",
+        "Fiber": "0.6",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/Tinde.png"
+    },
+    {
+        "Name": "Tomato",
+        "Hindi": "Tamatar/ टमाटर",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "5.1",
+        "Protein": "1.2",
+        "Fiber": "1.1",	
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Tomato.png"
+    },
+    {
+        "Name": "Turnip",
+        "Hindi": "Shalajam/ शलजम",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "8.36",
+        "Protein": "1.17",
+        "Fiber": "2.34",	
+        "Season": "Winter",
+        "Image": "assets/sample_predictions/Turnip.png"
+    },
+    {
+        "Name": "Water Apple",
+        "Hindi": "Paani Seb/ पानी सेब",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "11.6",
+        "Protein": "0.6",
+        "Fiber": "1.3",	
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/WaterApple.png"
+    },        
+    {
+        "Name": "Water Chestnut",
+        "Hindi": "Singhaada/ सिंघाड़ा",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "23.9",
+        "Protein": "3",
+        "Fiber": "4",	
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/WaterChestnut.png"
+    }, 
+    {
+        "Name": "Watermelon",
+        "Hindi": "Tarbooj/ तरबूज",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "7.55",
+        "Protein": "0.61",
+        "Fiber": "0.4",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/Watermelon.png"
+    },
+    {
+        "Name": "White Onion",
+        "Hindi": "Safed Pyaaz/ सफेद प्याज",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "9.3",
+        "Protein": "1.1",
+        "Fiber": "1.7",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/WhiteOnion.png"
+    },
+    {
+        "Name": "Yam",
+        "Hindi": "Rataalu/ रतालू",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "27",
+        "Protein": "1.5",
+        "Fiber": "4",
+        "Season": "Monsoon",
+        "Image": "assets/sample_predictions/Yam.png"
+    },
+    {
+        "Name": "Yellow Capsicum",
+        "Hindi": "Peeli Shimla Mirch/ पीली शिमला मिर्च",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "6",
+        "Protein": "1",
+        "Fiber": "2.1",
+        "Season": "All Seasons",
+        "Image": "assets/sample_predictions/YellowCapsicum.png"
+    },
+    {
+        "Name": "Yellow Dates",
+        "Hindi": "Barhi/ बरही",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "75",
+        "Protein": "2",
+        "Fiber": "7",
+        "Season": "Summer and Monsoon",
+        "Image": "assets/sample_predictions/YellowDates.png"
+    },
+    {
+        "Name": "Yellow Zucchini",
+        "Hindi": "Peeli Toree/ पीली तोरी",
+        "Disp": "Nutrients per 100g",
+        "Carbohydrates": "3.11",
+        "Protein": "1.21",
+        "Fiber": "1",
+        "Season": "Summer",
+        "Image": "assets/sample_predictions/YellowZucchini.png"
+    }
+
+]

@@ -1,15 +1,116 @@
-Banana
-1 Cabbage
-2 Coriander
-3 Fenugreek
-4 French Beans
-5 Granny Smith Apple
-6 Green Chili
-7 Lemon
-8 Mango
-9 Orange
-10 Papaya
-11 Peas
-12 Red Apple
-13 Tomato
-14 Watermelon
+0 Apricot
+1 Artichoke
+2 Arugula
+3 Asparagus
+4 Avocado
+5 Banana
+6 Bathua
+7 Beetroot
+8 Bitter Gourd
+9 Black Grapes
+10 Blackberry
+11 Blueberry
+12 Bottle Gourd
+13 Brinjal
+14 Broccoli
+15 Brussel Sprouts
+16 Cabbage
+17 Carrot
+18 Cashew Apple
+19 Cauliflower
+20 Celery
+21 Cherry
+22 Coconut(Green)
+23 Coconut(Kopra)
+24 Colocasia
+25 Coriander
+26 Corn Cob
+27 Cranberry
+28 Cucumber
+29 Curry Leaf
+30 Custard Apple
+31 Dill Leaf
+32 Dragon Fruit
+33 Drumstick
+34 Elephant Foot
+35 Fennel Bulb
+36 Fenugreek
+37 Fig
+38 Flat Beans
+39 French Beans
+40 French Onions
+41 Garlic
+42 Ginger
+43 Golden Berry
+44 Golden/Yellow Apple
+45 Gooseberry
+46 Granny Smith Apple
+47 Green Capsicum
+48 Green Chickpeas
+49 Green Chili
+50 Green Garlic
+51 Green Grapes
+52 Green Zucchini
+53 Guava
+54 Ice Apple
+55 Jackfruit
+56 Jackfruit Pulp
+57 Jamun
+58 Kale
+59 Kholrabi
+60 Kiwi
+61 Lady Finger
+62 Lemon
+63 Litchi
+64 Mango
+65 Melon
+66 Mint
+67 Mud Apple
+68 Mulberry
+69 Mushroom
+70 Orange Capsicum 
+71 Orange/Kenu
+72 Papaya
+73 Parsnip
+74 Passion Fruit
+75 Peach
+76 Peanut
+77 Pears
+78 Peas
+79 Pineapple
+80 Plum
+81 Pomegranate
+82 Potato
+83 Pumpkin
+84 Raddish
+85 Rambutan
+86 Raspberry
+87 Raw Mango
+88 Red Apple
+89 Red Banana
+90 Red Cabbage
+91 Red Capsicum
+92 Red Chili
+93 Red Dates
+94 Red Grapes
+95 Red Onions
+96 Rhubarb
+97 Ridge Gourd
+98 Snake Gourd
+99 Spinach
+100 Squash
+101 Starfruit
+102 Strawberry
+103 Sweet Potato
+104 Tamarind
+105 Tinde
+106 Tomato
+107 Turnip
+108 Water Apple
+109 Water Chestnut
+110 Watermelon
+111 White Onion
+112 Yam
+113 Yellow Capsicum
+114 Yellow Dates
+115 Yellow Zucchini

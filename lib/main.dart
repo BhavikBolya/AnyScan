@@ -1,79 +1,32 @@
+import 'package:anyscan/constants.dart';
+import 'package:anyscan/screens/CameraScreen.dart';
+import 'package:anyscan/screens/scan/scan.dart';
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:anyscan/scan.dart';
+import 'package:sizer/sizer.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  cameras = await availableCameras();
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'AnyScan',
-      theme: ThemeData(
-        primarySwatch: Colors.yellow,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: MyHomePage(title: 'AnyScan'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(widget.title),
-      ),
-      body: Container(
-        child: Stack(
-          children: <Widget>[
-            Container(
-              alignment: Alignment.center,
-              //child: Image.asset("assets/f_bg.jpg"),
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  fit: BoxFit.fill,
-                  image: AssetImage("assets/f_bg.jpg"),
-                ),
-              ),
-            ),
-            Container(
-              alignment: Alignment.center,
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => ScanPage()),
-                  );
-                },
-                color: Colors.amberAccent[200],
-                child: Text(
-                  'Start Scanning',
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 22.0
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
+    return Sizer(
+      builder: (BuildContext context, Orientation orientation, DeviceType deviceType) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'AnyScan',
+          theme: ThemeData(
+            primaryColor: kPrimaryColor,
+            visualDensity: VisualDensity.adaptivePlatformDensity,
+            fontFamily: 'Raleway',
+          ),
+          home: ScanPage(), 
+        );
+      },
     );
   }
 }
